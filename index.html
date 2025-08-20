@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>skill</title>
+    <style>
+      body {
+        max-width: 100%;
+        margin: 20 auto;
+      }
+      .container {
+        border: 1px solid #ddd;
+        border-radius: 12px;
+        max-width: 500px;
+        margin: auto;
+      }
+      header {
+        background-color: #2563eb;
+        border-radius: 3.5px;
+        height: 70px;
+        text-align: center;
+        box-sizing: border-box;
+      }
+      h1 {
+        padding-top: 20px;
+        margin: 0;
+        color: aliceblue;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        box-sizing: border-box;
+      }
+      h2 {
+        font-family: sans-serif;
+        font-weight: 548;
+        box-sizing: border-box;
+      }
+      p {
+        font-size: small;
+      }
+      section {
+        padding: 20px;
+        box-sizing: border-box;
+      }
+
+      button {
+        color: white;
+        background-color: #2563eb;
+        width: 80px;
+        border-radius: 3px;
+        height: 30px;
+        box-sizing: border-box;
+      }
+      /* input{
+            max-width: 400px;
+            width: 300px;
+            height: 25px;
+        } */
+      table,
+      th,
+      td {
+        border: 1px solid #ccc;
+      }
+      th,
+      td {
+        padding: 5px;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>My Skills</h1>
+      </header>
+      <section>
+        <h2>About ME</h2>
+        <p>
+          I am a web develper with advaced skills inHTML and professional CSS.
+        </p>
+        <p>
+          I create clean and responsive websites, ensuring a great user
+          experience
+        </p>
+        <h2>Contact ME</h2>
+        <form>
+          <label for="Name">Name</label><br />
+          <input
+            required
+            type="text"
+            id="name"
+            placeholder="enter your name"
+          /><br /><br />
+          <label for="email">Email</label><br />
+          <input
+            required
+            type="email"
+            id="email"
+            placeholder="enter your email"
+          /><br /><br />
+          <button type="submit">submit</button><br /><br />
+        </form>
+        <h2>My Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+        </ul>
+        <br />
+        <h2>Preferences</h2>
+        <input type="checkbox" id="email" checked />
+        <label for="email">Email</label><br />
+        <input type="checkbox" id="phone" />
+        <label for="phone">Phone</label><br />
+        <input type="checkbox" id="sms" checked />
+        <label for="sms">SMS</label>
+      </section>
+      <table>
+        <tr>
+          <th>name</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>Portfolio website</td>
+          <td>personal website</td>
+        </tr>
+        <tr>
+          <td>E-commerce website</td>
+          <td>Online store</td>
+        </tr>
+        <tr>
+          <td>Blog</td>
+          <td>Digital blog</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
